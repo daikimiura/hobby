@@ -1,4 +1,5 @@
-a:
+a:a.cpp
+	rm -f a
 	g++ -std=c++11 a.cpp -o a
 b:b.cpp
 	g++ -std=c++11 b.cpp -o b
