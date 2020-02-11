@@ -18,4 +18,4 @@ f:f.cpp
 	g++ -std=c++11 f.cpp -o f
 
 clean:
-	rm a b c d e f
+	rm {a..z}

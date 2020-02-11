@@ -36,8 +36,8 @@ int main() {
 
   repi(i, 1, n + 1) {
     repi(j, 0, w_limit + 1) {
+      // i番目の商品を選ぶ場合
       if (j >= w[i]) {
-        // i番目の商品を選ぶ場合
         chmax(dp[i][j], dp[i - 1][j - w[i]] + v[i]);
       }
 
