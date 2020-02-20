@@ -16,6 +16,11 @@ e:e.cpp
 f:f.cpp
 	rm -f f
 	g++ -std=c++11 f.cpp -o f
-
+g:g.cpp
+	rm -f g
+	g++ -std=c++11 g.cpp -o g
+h:h.cpp
+	rm -f h
+	g++ -std=c++11 h.cpp -o h
 clean:
 	rm {a..z}

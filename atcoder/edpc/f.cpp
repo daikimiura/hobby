@@ -21,4 +21,12 @@ template <class T> inline bool chmax(T &a, T b) {
   return false;
 }
 
-int main() { return 0; }
+int main() {
+  string s, t;
+  cin >> s >> t;
+
+  rep(i, s.size()) {
+    rep(j, t.size()) {}
+  }
+  return 0;
+}
