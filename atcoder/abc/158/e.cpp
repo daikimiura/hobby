@@ -30,24 +30,43 @@ inline bool chmax(T &a, T b)
 
 int main()
 {
-  int N,P;
-  string S;
-  cin >> N >> P >> S;
-  long long res = 0;
-  int right = 0;
-  set<char> member;
-  for (int left = 0; left < N; ++left)
+  int n, p;
+  string s;
+  cin >> n >> p >> s;
+
+  ll ans = 0;
+  if (p == 2 || p == 5)
   {
-    while (right < N && !member.count(S[right]))
+    rep(i, n)
     {
-      member.insert(S[right]);
-      ++right;
+      if ((s[i] - '0') % p == 0)
+      {
+        ans += i + 1;
+      }
     }
-    res += right - left;
-    if (left == right)
-      ++right;
-    else
-      member.erase(S[left]); // a[left] を削除
+    cout << ans << endl;
+    return 0;
   }
-  cout << res << endl;
+
+  vector<int> d(n + 1, 0);
+  int ten = 1;
+  for (int i = n - 1; i >= 0; i--)
+  {
+    int a;
+    a = (s[i] - '0') * ten % p;
+    d[i] = (d[i + 1] + a) % p;
+    ten *= 10;
+    ten %= p;
+  }
+
+  vector<int> cnt(p, 0);
+
+  for (int i = n; i >= 0; i--)
+  {
+    ans += cnt[d[i]];
+    cnt[d[i]]++;
+  }
+
+  cout << ans << endl;
+  return 0;
 }
