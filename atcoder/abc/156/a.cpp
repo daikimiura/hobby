@@ -2,7 +2,7 @@
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define repi(i, a, b) for (int i = int(a); i < int(b); ++i)
 typedef long long ll;
-long long mod = 1e9 + 7;
+long long MOD = 1e9 + 7;
 const long long INF = 1LL << 60;
 using namespace std;
 
@@ -30,5 +30,12 @@ inline bool chmax(T &a, T b)
 
 int main()
 {
+  int n, r;
+  cin >> n >> r;
+  if(n>= 10){
+    cout << r << endl;
+  }else {
+    cout << r + 100 * (10 - n) << endl;
+  }
   return 0;
 }
