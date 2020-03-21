@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 typedef long long ll;
 using namespace std;
+#define rep(i, n) for (int i = 0; i < (int)(n); i++);
 
 const int mod = 1000000007;
 
