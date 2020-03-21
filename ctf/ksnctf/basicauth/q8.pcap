@@ -1,0 +1,93 @@
+ÔÃ²¡����������ÿÿ�����ñBÁO9j�B���B����PVä´¢�)7j3�E��4j{@�€˜®À¨k€1Ô™'`ýgUô����€ÿÿ÷®��´ñBÁOGk�B���B����PVä´¢�)7j3�E��4j|@�€˜­À¨k€1Ô™'`R,®�����€ÿÿJÝ��´ñBÁOãÆ�<���<����)7j3�PVä´¢�E��,–6��€¬û1Ô™À¨k€'`rhDÜýgUõ`úðnw��´��ñBÁOûÆ�6���6����PVä´¢�)7j3�E��(j}@�€˜¸À¨k€1Ô™'`ýgUõrhDÝPÿÿ%��ñBÁOÇ�<���<����)7j3�PVä´¢�E��,–7��€¬ú1Ô™À¨k€'`1·R±R,®`úðô��´��ñBÁOÇ�6���6����PVä´¢�)7j3�E��(j~@�€˜·À¨k€1Ô™'`R,®1·R²Pÿÿ0��ñBÁOÐr	�¿��¿���PVä´¢�)7j3�E�±j@�€—-À¨k€1Ô™'`ýgUõrhDÝPÿÿÍ��GET /~q8/ HTTP/1.1
+Host: ctfq.sweetduet.info:10080
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.162 Safari/535.19
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ja,en-US;q=0.8,en;q=0.6
+Accept-Charset: Shift_JIS,utf-8;q=0.7,*;q=0.3
+
+ñBÁOìv	�<���<����)7j3�PVä´¢�E��(–8��€¬ý1Ô™À¨k€'`rhDÝýgW~Púð„«��������ñBÁOùæ	������)7j3�PVä´¢�E�ú–9��€ª*1Ô™À¨k€'`rhDÝýgW~Púð•1��HTTP/1.1 401 Authorization Required
+Date: Sat, 26 May 2012 20:54:01 GMT
+Server: Apache/2.2.15 (CentOS)
+WWW-Authenticate: Basic realm="Secret"
+Content-Length: 489
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>401 Authorization Required</title>
+</head><body>
+<h1>Authorization Required</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+<hr>
+<address>Apache/2.2.15 (CentOS) Server at ctfq.sweetduet.info Port 10080</address>
+</body></html>
+ñBÁOLê	�<���<����)7j3�PVä´¢�E��(–:��€¬û1Ô™À¨k€'`rhG¯ýgW~PúðÐ��������ñBÁOLê	�6���6����PVä´¢�)7j3�E��(j€@�€˜µÀ¨k€1Ô™'`ýgW~rhG°Pý-›��õBÁOkG�6���6����PVä´¢�)7j3�E��(j™@�€˜œÀ¨k€1Ô™'`ýgW~rhG°Pý-š��õBÁOnT�ö��ö���PVä´¢�)7j3�E�èjš@�€–ÛÀ¨k€1Ô™'`R,®1·R²PÿÿÏ��GET /~q8/ HTTP/1.1
+Host: ctfq.sweetduet.info:10080
+Connection: keep-alive
+Authorization: Basic cTg6RkxBR181dXg3eksyTktTSDhmU0dB
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.162 Safari/535.19
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ja,en-US;q=0.8,en;q=0.6
+Accept-Charset: Shift_JIS,utf-8;q=0.7,*;q=0.3
+
+õBÁO
+U�<���<����)7j3�PVä´¢�E��(–;��€¬ú1Ô™À¨k€'`rhG°ýgWPúïØ��������õBÁOV�<���<����)7j3�PVä´¢�E��(–<��€¬ù1Ô™À¨k€'`1·R²R,¯ÁPúð
+��������õBÁO­�ú��ú���)7j3�PVä´¢�E�ì–=��€«41Ô™À¨k€'`1·R²R,¯ÁPúððd��HTTP/1.1 200 OK
+Date: Sat, 26 May 2012 20:54:05 GMT
+Server: Apache/2.2.15 (CentOS)
+Last-Modified: Sat, 26 May 2012 12:24:46 GMT
+ETag: "422da-b8-4c0ef920b3f8e"
+Accept-Ranges: bytes
+Content-Length: 184
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Q8</title>
+  </head>
+  <body>
+    <p>Congratulations!</p>
+    <p>The flag is q8's password.</p>
+  </body>
+</html>
+õBÁO[I�6���6����PVä´¢�)7j3�E��(j›@�€˜šÀ¨k€1Ô™'`R,¯Á1·TvPþ;o��õBÁOM�<���<����)7j3�PVä´¢�E��(–>��€¬÷1Ô™À¨k€'`1·TvR,¯ÁPúð²��������õBÁO"M�6���6����PVä´¢�)7j3�E��(jœ@�€˜™À¨k€1Ô™'`R,¯Â1·TwPþ;n��õBÁOgM�<���<����)7j3�PVä´¢�E��(–?��€¬ö1Ô™À¨k€'`1·TwR,¯ÂPúïº��������õBÁOŸº�B���B����PVä´¢�)7j3�E��4j@�€˜ŒÀ¨k€1Ô™'`JG‚Ä����€ÿÿ}ý��´õBÁO;	�<���<����)7j3�PVä´¢�E��,–@��€¬ñ1Ô™À¨k€'`<•N#JG‚Å`úð!R��´��õBÁOQ	�6���6����PVä´¢�)7j3�E��(jž@�€˜—À¨k€1Ô™'`JG‚Å<•N$Pÿÿ4���õBÁO·	�Š��Š���PVä´¢�)7j3�E�|jŸ@�€—BÀ¨k€1Ô™'`JG‚Å<•N$Pÿÿ}ï��GET /favicon.ico HTTP/1.1
+Host: ctfq.sweetduet.info:10080
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.162 Safari/535.19
+Accept-Encoding: gzip,deflate,sdch
+Accept-Language: ja,en-US;q=0.8,en;q=0.6
+Accept-Charset: Shift_JIS,utf-8;q=0.7,*;q=0.3
+
+õBÁOd	�<���<����)7j3�PVä´¢�E��(–A��€¬ô1Ô™À¨k€'`<•N$JG„Púð7»��������õBÁO²J
+������)7j3�PVä´¢�E�–B��€«1Ô™À¨k€'`<•N$JG„Púð¨��HTTP/1.1 404 Not Found
+Date: Sat, 26 May 2012 20:54:05 GMT
+Server: Apache/2.2.15 (CentOS)
+Content-Length: 297
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+<hr>
+<address>Apache/2.2.15 (CentOS) Server at ctfq.sweetduet.info Port 10080</address>
+</body></html>
+õBÁO¿J
+�6���6����PVä´¢�)7j3�E��(j @�€˜•À¨k€1Ô™'`JG„<•PPþ"2«��õBÁOdT
+�<���<����)7j3�PVä´¢�E��(–C��€¬ò1Ô™À¨k€'`<•PJG„Púï5Þ��������õBÁOó”�<���<����)7j3�PVä´¢�E��(–D��€¬ñ1Ô™À¨k€'`<•PJG„Púï5Õ��������õBÁO•�6���6����PVä´¢�)7j3�E��(j©@�€˜ŒÀ¨k€1Ô™'`JG„<•PPþ"2ª��
