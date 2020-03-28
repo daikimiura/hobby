@@ -4,6 +4,9 @@
         "random": "cpp",
         "sstream": "cpp",
         "regex": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp"
     }
 }
