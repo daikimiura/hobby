@@ -50,9 +50,6 @@ int rec(int bit, int v)
 
   // bit の v を除いたもの
   int prev_bit = bit & ~(1 << v);
-  cout << "bit: " << bitset<4>(bit) << endl;
-  cout << "prev_bit: " << bitset<4>(prev_bit) << endl;
-  cout << "v: " << v << endl;
   // v の手前のノードとして u を全探索
   for (int u = 0; u < V; ++u)
   {
