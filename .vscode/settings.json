@@ -9,6 +9,10 @@
         "vector": "cpp",
         "string_view": "cpp",
         "ostream": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "*.tcc": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp"
     }
 }
