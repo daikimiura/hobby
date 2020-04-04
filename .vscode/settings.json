@@ -13,6 +13,8 @@
         "*.tcc": "cpp",
         "chrono": "cpp",
         "limits": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "cmath": "cpp",
+        "iomanip": "cpp"
     }
 }
