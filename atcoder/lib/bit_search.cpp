@@ -2,7 +2,7 @@
 typedef long long ll;
 using namespace std;
 
-// int 型を vector 型に変換
+// int 型(bit)を vector 型に変換
 // bit: 集合を表す整数
 // N: 何個のものについて考えているか
 vector<int> IntegerToVector(int bit, int N)
