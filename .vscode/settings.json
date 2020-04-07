@@ -16,6 +16,8 @@
         "valarray": "cpp",
         "cmath": "cpp",
         "iomanip": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__split_buffer": "cpp",
+        "string": "cpp"
     }
 }
