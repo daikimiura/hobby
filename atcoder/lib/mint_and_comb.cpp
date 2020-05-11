@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 typedef long long ll;
 using namespace std;
-#define rep(i, n) for (int i = 0; i < (int)(n); i++);
+#define rep(i, n)                      \
+    for (int i = 0; i < (int)(n); i++) \
+        ;
 
 const int mod = 1000000007;
 
@@ -47,13 +49,26 @@ struct mint
     mint operator/(const mint a) const { return mint(*this) /= a; }
 };
 
-mint comb(int n, int a)
+struct combination
 {
-    mint x = 1, y = 1;
-    rep(i, a)
+    vector<mint> fact, ifact;
+    combination(int n) : fact(n + 1), ifact(n + 1)
     {
-        x *= n - i;
-        y *= i + 1;
+        assert(n < mod);
+        fact[0] = 1;
+        for (int i = 1; i <= n; ++i)
+            fact[i] = fact[i - 1] * i;
+        ifact[n] = fact[n].inv();
+        for (int i = n; i >= 1; --i)
+            ifact[i - 1] = ifact[i] * i;
     }
-    return x / y;
-}
+    mint operator()(int n, int k)
+    {
+        if (k < 0 || k > n)
+            return 0;
+        return fact[n] * ifact[k] * ifact[n - k];
+    }
+} c(2000005);
+
+// 100C5 = c(100, 5)
+// 100P5 = c(100,5) * c(100, 5).fact[5]
