@@ -5,8 +5,8 @@ typedef long long ll;
 long long mod = 1e9 + 7;
 const int iINF = 0x3f3f3f3f;
 const long long INF = 1LL << 60;
-using pint = pair<int, int>;
 using namespace std;
+using pint = pair<int, int>;
 
 template <class T>
 inline bool chmin(T &a, T b)
